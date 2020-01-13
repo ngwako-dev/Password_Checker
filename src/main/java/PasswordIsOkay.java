@@ -2,8 +2,10 @@ public class PasswordIsOkay{
 
 
     public static boolean passwordIsOkay(){
-
-
-        return PasswordIsValid.counter >= 3;
+        boolean result =false;
+        if(PasswordIsValid.counter >= 3){
+            result = true;
+        }
+        return result;
     }
 }

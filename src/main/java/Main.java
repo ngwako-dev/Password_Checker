@@ -10,9 +10,8 @@ public class Main {
         System.out.println("Please enter your password :");
         String password=Obj.nextLine();
 
-
-
         System.out.println(PasswordIsValid.passwordIsValid(password));
+        System.out.println(PasswordIsOkay.passwordIsOkay());
 
 
 

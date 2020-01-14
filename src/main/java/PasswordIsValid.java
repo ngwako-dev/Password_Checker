@@ -67,5 +67,13 @@ public class PasswordIsValid {
         return results;
     }
 
+    public static boolean passwordIsOkay(String password){
+
+        if (password.length()<=8) {
+            return false;
+        }
+        return counter >= 3;
+    }
+
 }
 

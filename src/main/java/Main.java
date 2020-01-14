@@ -11,7 +11,7 @@ public class Main {
         String password=Obj.nextLine();
 
         System.out.println(PasswordIsValid.passwordIsValid(password));
-        System.out.println(PasswordIsOkay.passwordIsOkay());
+        System.out.println(PasswordIsValid.passwordIsOkay(password));
 
 
 

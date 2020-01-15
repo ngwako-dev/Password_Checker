@@ -37,28 +37,28 @@ public class PasswordIsValid {
         }
         if(!hasCap){
 
-           results+= "Oops!!!: Your passwords should have an uppercase.\n";
+           results+= "Your passwords should have an uppercase.\n";
             counter--;
         }
         if(!hasLow){
-            results+="Oops!!!: Your password should have a lowercase.\n";
+            results+="Your password should have a lowercase.\n";
             counter--;
         }
         if(!hasNum){
-            results+="Oops!!!: Your password should have a number.\n";
+            results+="Your password should have a number.\n";
             counter--;
         }
         if(sMatcher.matches()){
-            results+="Oops!!!: Your password should have special character.\n";
+            results+="Your password should have special character.\n";
             counter--;
         }
         if(password.length()<=8){
-            results+="Oops!!!: Your should be longer than 8.\n";
+            results+="Your should be longer than 8.\n";
             counter--;
         }
         if(password.equals(WhiteSpace)){
 
-            results+="Oops!!! Your password should exist.\n";
+            results+="Your password should exist.\n";
             counter--;
         }
         if (password.length()<=8) {
